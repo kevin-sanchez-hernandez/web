@@ -7,13 +7,58 @@ h1 {
 .areaBonita {
     border: 1px;
     border-radius: 10%;
-    background-color:  #797491;
-    color: #3d3c40;
+    background-color:  #7cd7d4;
+    color: #4c3f70;
     height: 58px;
     width: 150px;
     font-size: 20px;
 
 }
-label{
+.label1{
     padding-right: 10px;
+    font-size: 20px;
+    color: #2347d7;
+
+input{
+        font-size: 20px;
+        color: #4c495e;
+        background-color: #d7cfe8;
+    }
+
+}
+
+.label2{ 
+    padding-right: 20px;
+    font-size: x-large;
+
+input{
+        font-size: 20px;
+        color: #c43c06;
+        background-color: #95f0b791;
+    }
+}
+.label3{
+    font-size: 20px;
+   
+    color:#09021a;
+
+input{
+        font-size: 20px;
+        color: #17120f;
+        background-color: #d5f06b86;
+    }
+}
+
+.label4{
+    padding-right: 20px;
+    font: caption;
+    font-size: 20px;
+    color: #0f0f0f;
+
+input{
+        font-size: 20px;
+
+        color: #000000;
+        background-color: #4acec3;
+    }
 }
