@@ -5,7 +5,7 @@
           .tarjeta .cabecera{
             display: flex;
             padding: 10px;
-            border: rgb(197, 54, 140) solid;
+            border: rgb(58, 34, 197) solid;
             border-radius: 10% 10% 0% 0%;
           }
           .tarjeta .cabecera img{
@@ -24,12 +24,12 @@
             text-align: justify;
             font-size: 18px;
             padding: 10px;
-            border: rgb(197, 54, 140) solid;
-            background-color: rgb(118, 191, 94);
+            border: rgb(58, 34, 197) solid;
+            background-color: rgb(98, 140, 36);
             
           }
             .tarjeta .pie{
-                border: rgb(197, 55, 140) solid;
+                border: rgb(58, 34, 197) solid;
                 border-radius: 0% 0% 10% 10%;
                 
             }
@@ -38,7 +38,7 @@
               padding-top: 10px;
               padding-bottom: 10px;
               font-size: 20px;
-              background-color: rgb(34, 215, 145);
+              background-color: rgb(28, 114, 120);
               color:black;
               margin-top: 30px;
               margin-bottom: 30px;
@@ -54,7 +54,7 @@
     color: aliceblue;
 }
 .colorfondoazulclaro{
-    background-color: rgb(192,171,135);
+    background-color: rgb(219, 135, 234);
     color: black;
 
 }
