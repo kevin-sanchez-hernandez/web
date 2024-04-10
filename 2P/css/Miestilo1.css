@@ -10,7 +10,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #35bcfa;
+    background: #1d6ee6;
 }
 
 .container {
@@ -20,6 +20,6 @@ body {
     border-radius: 6px;
     padding: 30px;
     margin: 0 15px;
-    background-color: #35bcfa;
+    background-color: #1d6ee6;
 }
 
