@@ -2,31 +2,81 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">ç
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/miestilo2.css">
 
     <title>Document</title>
+    <style>
+        body {
+            background-color: white;
+            color: black;
+        }
+        body.dark-theme {
+            background-color: #333;
+            color: white;
+        }
+    </style>
+
 </head>
 <body>
+    
+<div class="cont">
     <div class="nav">
         <ul>
-          <li> 
-            <img src="assets/img/casita.png" alt="" width= 50px>
-            <img src="assets/img/estrllita.png" alt="" width="50px">
-            <img src="assets/img/mando.png" alt="" width="40px">
-            <img src="assets/img/play.png" alt="" width="70px">
-            <img src="assets/img/carita.png" alt="" width="50px">
-          </li>
+          
+           <li> <img src="assets/img/casita.png" alt="" width= 50px></li>
+
+            <li><img src="assets/img/estrllita.png" alt="" width="50px">
+            </li>
+           <li> <img src="assets/img/mando.png" alt="" width="40px">
+           </li>
+            <li><img src="assets/img/play.png" alt="" width="70px"></li>
+           <li> <img src="assets/img/carita.png" alt="" width="50px"></li>
+          
         </ul>
 
     </div>
     <div class="fun">
-    <h1>Settings</h1>
-    <p><a href="privacy.html">General Privacy statement</a></p>
-    <p><a href="terms.html">Terms of use</a></p>
+        <div class="set">
+            <div class="setting">
+            <img src="assets/img/flechita.jpg" alt="">
+            
+            <h1>Settings</h1>
+            <img src="" alt="">
+            </div>
+    <div class="nav2">
+    <ul>
+        <li>
+
+            <p><a href="privacy.html">General Privacy statement</a></p>
+        </li>
+        <li>
+           <a href="privacy.html"><p> Privacy statement</p> </a>
+        </li>
+        <li>
+            <p><a href="terms.html">Terms of use</a></p>
+            
+            
+        </li>
+        <li>
+            <a href="terms.html"><p>About</p></a>
+        </li>
+        
+        
+    </ul>
+</div>
+</div>
     <p><a href="options.html">Options</a></p>
-    <p><a href="country.html">Choose edition</a> United States (English)</p>
-    <button id="darkThemeToggle">Dark Theme Mode (for Articles) Off</button>
+    <h3>Choose edition</h3>
+        <select id="talent">
+            <option value="option1">Unite States (English)</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+          </select>
+          <br>
+        <h3>Dark Theme Mode (for Articles) </h3>
+        <br>
+    <button id="darkThemeToggle">on/off</button>
     <script>
         const themeToggle = document.getElementById('darkThemeToggle');
         themeToggle.addEventListener('click', () => {
@@ -36,7 +86,9 @@
                 : 'Dark Theme Mode (for Articles) Off';
         });
     </script>
+    <a href="practica1.html">pagina uno</a>
     <p><label><input type="checkbox" checked> Breaking News Alerts On</label></p>
    </div>
+</div>
 </body>
 </html>
