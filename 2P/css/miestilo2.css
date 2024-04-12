@@ -1,0 +1,15 @@
+.nav{
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: right;
+
+}
+.nav ul li{
+    list-style-type: none;
+    display: flexbox;
+    margin: 0;
+    padding: 0;
+    color: bisque;
+
+}

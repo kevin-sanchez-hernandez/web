@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">ç
+    <link rel="stylesheet" href="css/miestilo2.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+          <li> 
+            <img src="assets/img/casita.png" alt="" width= 50px>
+            <img src="assets/img/estrllita.png" alt="" width="50px">
+            <img src="assets/img/mando.png" alt="" width="40px">
+            <img src="assets/img/play.png" alt="" width="70px">
+            <img src="assets/img/carita.png" alt="" width="50px">
+          </li>
+        </ul>
+
+    </div>
+    <div class="fun">
+    <h1>Settings</h1>
+    <p><a href="privacy.html">General Privacy statement</a></p>
+    <p><a href="terms.html">Terms of use</a></p>
+    <p><a href="options.html">Options</a></p>
+    <p><a href="country.html">Choose edition</a> United States (English)</p>
+    <button id="darkThemeToggle">Dark Theme Mode (for Articles) Off</button>
+    <script>
+        const themeToggle = document.getElementById('darkThemeToggle');
+        themeToggle.addEventListener('click', () => {
+            document.body.classList.toggle('dark-theme');
+            themeToggle.textContent = document.body.classList.contains('dark-theme')
+                ? 'Dark Theme Mode (for Articles) On'
+                : 'Dark Theme Mode (for Articles) Off';
+        });
+    </script>
+    <p><label><input type="checkbox" checked> Breaking News Alerts On</label></p>
+   </div>
+</body>
+</html>
