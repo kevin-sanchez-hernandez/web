@@ -1,0 +1,41 @@
+.container{
+    border: 1px;
+    border-color: black;
+    display: flex;
+    background-color: bisque;
+}
+.nav{
+
+    background-color: rgb(129, 129, 110);
+   margin-right: 10px;
+   padding-top: 50%;
+   
+}
+.nav ul{
+   
+    list-style-type:none;
+   
+    margin: 10px;
+    padding: 0;
+    color: bisque;
+
+}
+.info ul{
+    display: flex;
+    list-style-type: none;
+}
+.info ul h3{
+    padding-right: 50px;
+}
+.info img{
+    width: 50px;
+    
+   
+}
+.event{
+    display: flex;
+    padding: 30px;
+}
+.event select{
+    margin: 30px;
+}
