@@ -1,0 +1,48 @@
+h2{
+    background-color: blue;
+    text-align: center;
+
+}
+.container{
+    max-width: 900px;
+    width: 100%;
+    border-radius: 6px;
+    padding: 30px;
+    margin: 0 15px;
+}
+.container form {
+    position: relative;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container form .fields {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2px;
+}
+.container form .fields .input-field {
+    margin-bottom: 20px;
+    padding-right: 20px;
+
+}
+.input-field input,
+.input-field select
+{
+    padding: 10px;
+   
+   
+    margin-bottom: 5px;
+}
+select{
+    color: blue;
+
+}
+label{
+    color: mediumaquamarine;
+}
+
