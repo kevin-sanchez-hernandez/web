@@ -1,0 +1,47 @@
+.logo{
+    width: 100px;
+    height: 80px;
+    align-items: center;
+}
+.alerta{
+    width: 900px;
+    height: 40px;
+    
+}
+.alert{
+    width: 440px;
+    height: 40px;
+    align-content: center;
+    margin-left: 330px;
+}
+.container-fluid{
+    background-color: #6E2BF1;
+}
+.tc{
+    color: white;
+}
+.iconos{
+    align-items: center;
+}
+.bg{
+    background-color: #6E2BF1;
+}
+.text-large{
+    text-align: center;
+}
+.text-small{
+    font-size: 10px;
+    
+}
+.ttx{
+    margin-left: 40%;
+}
+.container{
+    background-color: white;
+
+}
+.container .container{
+    background-color: #784ad3;
+    width: 95%;
+    height: 50%;
+}
