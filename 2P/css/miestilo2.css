@@ -1,37 +1,161 @@
-.nav{
+body{
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.todo{
+    position: relative;
+    max-width: 590px;
+    width: 100%;
+    border-radius: 0px;
+    padding: 15px;
+    margin: 0 15px;
+    border: #000000 solid;
+    background-color: #ffffff;
+    right: 300px;
+    
+}
+.cabeza h6{
+    position: absolute;
+    font-size: 15px; 
+     
+}
+.cabeza i{
+    position: relative;
+    display: inline-block;
+    width: 2.5em;
+    left: 450px;
+}
+.todo .cuerpo{
+    position: relative;
+    min-height: 600px;
+    margin-right: 100px;
+    margin-right: -2.5vh;
+    margin-left:  -2.5vh;
+    background-color: rgb(240, 237, 237);
+    
+}
+.todo .menu{
     background-color: black;
-    width: px;
-    justify-content: left;
-
-}
-.nav ul{
-    list-style-type:none;
-    
-    margin: 10px;
-    padding: 0;
-    color: bisque;
-
-}
-.cont{
-    display: flex;
+    max-width: 40px;
+    min-height: 480px;
     
 }
-.fun{
-    background-color:white;
+.todo .menu-superior {
+    background-color: red;
+    max-width: 40px ;
+    min-height: 45px;
 }
-.nav2 ul {
-    list-style-type:none;
-    display: flex;
-    
+.todo .menu-superior i{
+    font-size: 25px;
+    color: white;
+    position: relative;
+    margin-left: 1vh;
+}
+.todo .cuerpo .menu i{
+    font-size: 25px;
+    color: white;
+    position: relative;
+    margin-left: 1vh;
+}
+.todo .cuerpo .menu i{
 
+    display: center;
+    color: white;
+    font-size: 30px;
+    margin-left: 1vh;
 }
-.set{
-    background-color: gray;
+.todo .menu-inferior{
+    background-color: red;
+    max-width: 40px;
+    min-height: 45px;
 }
-.nav2 ul li{
-    padding-right: 20px;
+.todo .menu-inferior i{
+    display: center;
+    color: white;
+    font-size: 30px;
+    margin-left: 1vh;
 }
-.setting{
+.todo .cuerpo .cuerpo-centro{
+    position: relative;
+    max-width: 544px;
+    width: 100%;
+    border-radius: 0px;
+    margin: 0 15px;
+    background-color: rgb(196, 189, 189);
+    right: -25px;
+    max-height: -10px;
+    margin-top: -615px;
+    padding: 50px;    
+}
+.cuerpo-centro h5{
+    position: relative;
+    font-size: 20px;
+    margin-top: -35px;
+    color: black;
+}
+.todo .cuerpo .cuerpo-centro i{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    right: 40px;
+    display: block;
+    margin-left: -1vh;
+    margin-top: -10vh;  
+}
+.todo .cuerpo .cuerpo-centro h6{
+    display: inline;
+    position: relative;
+    word-spacing: 20px;
     display: flex;
+    margin-top: 40px;
 
+}      
+.todo .cuerpo .cuerpo-2 {
+    position: relative;
+    left: 50px;
+
+}  
+.todo .cuerpo .cuerpo-2{
+    font-size: 15px;
+}    
+.button{
+    background-color: #ffffff;
+    width: 60px;
+    height: 30px;
+    border-radius: 50px;
+    border-color: rgb(0,0,0,0);
+    cursor: pointer;
+    position: relative;
+    transition: 0.2s;
+} 
+.button::before{
+    position: absolute;
+    content: " ";
+    background-color: #000000;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    margin: 5px;
+    transition: 0.2s;
+}   
+input{
+    display: none;
+} 
+label{
+    font-size: 20px;
+    position: absolute;
+}
+input:checked + .button{
+    background-color: #0875CA;
+}
+input:checked + .button::before{
+    transform: translateX(30px);
+}
+select{
+    position: relative;
+    width: 400px;
+    height: 35px;
 }

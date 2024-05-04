@@ -4,64 +4,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/miestilo3.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="bootstrap/js/bootstrap.bundle.min.js">
+    <link rel="shortcut icon" href="">
+    <title>Setting</title>
 </head>
 <body>
-    <div class="container">
-    <div class="nav">
-        <ul>
-            
-            <li><img src="assets/img/sobre.png" alt=""></li>
-            <li><img src="assets/img/calendario.png" alt=""></li>
-            <li>
-                <img src="assets/img/personitas.png" alt="">
-            </li>
-            <li><img src="assets/img/palomita.jpg" alt=""></li>
-            <li><img src="assets/img/estrllita.png" alt=""></li>
-        </ul>
-    </div>
-    <div class="info">
-        <h4>Calendar</h4>
-        <br>
-        <ul>
-            <li><h3>Home</h3></li>
-            <li><h3>Format</h3></li>
-            <li><h3>Review</h3></li>
-
-        </ul>
-        <br>
-        <img src="assets/img/carpeta.png" alt="">
-        <img src="assets/img/bote.png" alt="">
-        <img src="assets/img/reinicio.png" alt="">
-        <img src="assets/img/candadito.png" alt="">
-        <img src="assets/img/lupa.png" alt="">
-       
-        <h2>
-            Details
-        </h2>
-        <div class="event">
-            <select name="" id=""></select>
-            <h1>Evet name</h1>
-            <select name="" id=""></select>
-        </div>
-        <br>
-        <input type="text"
-        placeholder="Location">
-        <br>
-        <input type="date"
-        >
+    <div class="todo">
+        <div class="cabeza">
+            <header>
+                <h6>Calendar</h6>
+                <i class="bi bi-dash"></i>
+                <i class="bi bi-square"></i>
+                <i class="bi bi-x-lg"></i>
         
-        <input type="time"
-        >
-    
-        <input type="checkbox"> All day
-        <br>
-        <br>
-        <input type="date">
-        <input type="time" >
-      <br>
-      <textarea name="" id="" cols="30" rows="10"></textarea>
+            </header>
+           </div>
+           <div class="cuerpo">
+            <div class="menu-superior">
+                <i class="bi bi-list"></i>
+            </div>
+            <div class="menu">
+                
+               
+            </div>
+            <div class="menu-inferior">
+                <i class="bi bi-people"></i>
+                <i class="bi bi-gear"></i>
+                
+            </div>
+
+            <div class="cuerpo-centro">
+                    <header>
+                       
+                     <i class="bi bi-arrow-left"></i>  
+                     
+                         <h6>Home    Format     Review</h6> 
+                        
+                    </header>
+                   
+                    
+            </div>
+            <div class="cuerpo-2">
+               
+                <label for="">Details</label><br>
+                <br>
+                <select name="" id="">
+                    <option value="">Event name</option>
+                </select>
+                <br>
+                <br>
+                
+                <div class="content">
+                    <div class="cuerpo3">
+                       
+                        <div class="container">
+                        <div class="input-box">
+
+                            <select name="" id="">
+                                <option value="">Location</option>
+                            </select>
+
+                            <br>
+                            <br>
+
+                            <select name="" id="">
+                                <option value="">11:00 AM</option>
+                            </select>
+
+
+                            <br>
+                            <br>
+                            <select name="" id="">
+                                <option value="">11:30 AM</option>
+                            </select>
+
+                            
+                            <br>
+                            <br>
+                            
+                            <label for="timeline">Timeline</label>
+                            <input type="text" name="timeline" id="timeline" required>
+                        </div>
+                        
+                        <div class="input-box">
+                            <label for="final"></label>
+                            <textarea name="final" id="final" cols="60" rows="10"></textarea>
+                        </div>
+                        
+
+                    </div>
     </div>
-</div>
+   
 </body>
 </html>

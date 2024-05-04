@@ -1,0 +1,128 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+
+.nav {
+    background-color: rgb(147, 64, 72);
+    width: 100%;
+    height: 50px;
+}
+
+.texto {
+    color: rgb(250, 240, 240);
+    font-size: 13px;
+}
+
+.cabecera {
+    background-color: rgb(216, 212, 211);
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.cuerpo {
+    background-color: rgb(216, 212, 211);
+    width: 100%;
+    padding: 20px; 
+}
+
+.pie {
+    background-color: rgb(216, 212, 211);
+    width: 100%;
+    height: 100px;
+}
+
+
+.izquierdo {
+    float: none; 
+    width: 100%; 
+    margin-bottom: 20px; 
+}
+
+
+.derecho {
+    float: none; 
+    width: 100%;
+    margin-bottom: 20px; 
+    text-align: center; 
+    background-color: rgb(147, 64, 72);
+    color: white;
+}
+
+
+.columna1 {
+    background-color: rgb(147, 64, 72);
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.formulario {
+    text-align: left;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.form-control {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.abajo {
+    font-size: 14px;
+    padding: 8px 20px;
+    background-color: gray;
+    color: white;
+    border-color: gray;
+}
+
+@media only screen and (max-width: 1024px) {
+    /* Estilos específicos para tablet y celular */
+    .nav {
+        width: 100%;
+    }
+
+    .cabecera {
+        width: 100%;
+    }
+
+    .cuerpo {
+        width: 100%;
+        padding: 10px; 
+    }
+
+    .izquierdo,
+    .derecho {
+        width: 100%;
+        margin-bottom: 10px; 
+    }
+
+    .columna1 {
+        padding: 5px; 
+        margin-bottom: 10px; 
+    }
+
+    .formulario {
+        padding: 10px;
+    }
+
+    .form-control {
+        width: 100%;
+        margin-bottom: 5px; 
+    }
+}
